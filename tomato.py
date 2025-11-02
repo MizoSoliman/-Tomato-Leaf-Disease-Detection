@@ -116,7 +116,7 @@ if uploaded_file is not None:
             image_path = "temp.jpg"
             image.save(image_path)
 
-            results = model.predict(source=image_path, save=True, conf=0.5)
+            results = model.predict(source=image_path, save=True, conf=0.25)
             boxes = results[0].boxes
 
             if boxes is None or len(boxes) == 0:
@@ -144,4 +144,5 @@ st.markdown("""
      Developed by <b>Mazin Soliman</b> 🌱
      </p>
 """, unsafe_allow_html=True)
+
 
