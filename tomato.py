@@ -141,9 +141,10 @@ else:
 st.markdown("""
      <hr>
      <p style="text-align:center; color:white; font-weight:800; text-shadow:0 0 8px rgba(255,255,255,0.6);">
-     Developed by <b>Mazin Soliman</b> 🌱
+     Developed by <b>Mazin Soliman</b> 🍅
      </p>
 """, unsafe_allow_html=True)
+
 
 
 
